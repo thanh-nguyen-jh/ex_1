@@ -327,6 +327,11 @@ body {
 
 .image-box > .women-image {
     width: 50%;
+    margin-left: -1px;
+}
+
+.responsive-box > .paragraphs-box > .col-2 {
+    padding-bottom: 32px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -337,7 +342,7 @@ body {
     .responsive-box > .image-box {
         max-width: 460px;
 
-        margin-top: -235px;
+        margin-top: -234px;
         margin-left: 300px;
         width: calc(100% - 300px);
     }
@@ -355,7 +360,6 @@ body {
     .responsive-box > .paragraphs-box > .col-2 {
         display: flex;
         background-color: var(--main-bg-color);
-        padding-bottom: 32px;
     }
 }
 
@@ -444,7 +448,6 @@ body {
         margin-top: -200px;
         margin-left: 0;
         position: relative;
-        /* width: 100%; */
         width: calc(100% - 200px);
     }
 
@@ -462,7 +465,7 @@ body {
     color: var(--white-normal-color);
     text-align: center;
 
-    margin-top: 32px;
+    /* margin-top: 32px; */
 
     padding-bottom: 128px;
 }
