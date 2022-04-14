@@ -484,6 +484,8 @@ body {
     margin-bottom: 16px;
     height: 40px;
     width: 80%;
+    font-size: large;
+    padding: 4px;
 }
 
 .responsive-box > .paragraphs-box > .take-action-box > .input-box > .input {
@@ -491,8 +493,8 @@ body {
 }
 
 .responsive-box > .paragraphs-box > .take-action-box > .input-box > .button {
-    padding-left: 8px;
-    padding-right: 8px;
+    padding: 8px;
+    height: 52px;
 
     background-color: var(--grey-dark-color);
     color: var(--white-normal-color);
@@ -507,6 +509,7 @@ body {
 
     .responsive-box > .paragraphs-box > .take-action-box > .input-box {
         flex-direction: row;
+        width: 80%;
     }
 
     .responsive-box > .paragraphs-box > .take-action-box > .input-box > .input {
