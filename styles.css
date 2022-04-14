@@ -6,10 +6,14 @@
 :root {
     --main-bg-color: #f26522;
     --white-normal-color: #ffffff;
+    --white-dark-color: #dddddd;
     --grey-normal-color: #3a4d69;
     --grey-dark-color: #323339;
     --grey-dark-color-500: #83969f;
     --grey-light-color: #cfcfcf;
+    --black-normal-color: #000000;
+    --brown-normal-color: #333;
+    --green-active-color: #04aa6d;
 }
 
 body {
@@ -67,7 +71,7 @@ body {
 /* Style the navigation menu */
 .topnav-mobile {
     overflow: hidden;
-    background-color: #333;
+    background-color: var(--brown-normal-color);
     position: relative;
 }
 
@@ -78,7 +82,7 @@ body {
 
 /* Style navigation menu links */
 .topnav-mobile a {
-    color: white;
+    color: var(--white-normal-color);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -87,7 +91,7 @@ body {
 
 /* Style the hamburger menu */
 .topnav-mobile a.icon {
-    background: black;
+    background: var(--black-normal-color);
     display: block;
     position: absolute;
     right: 0;
@@ -96,14 +100,14 @@ body {
 
 /* Add a grey background color on mouse-over */
 .topnav-mobile a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: var(--white-dark-color);
+    color: var(--black-normal-color);
 }
 
 /* Style the active link (or home/logo) */
 .active {
-    background-color: #04aa6d;
-    color: white;
+    background-color: var(--green-active-color);
+    color: var(--white-normal-color);
 }
 
 .flex-topnav {
@@ -121,7 +125,7 @@ body {
 
     .active {
         background-color: inherit;
-        color: white;
+        color: var(--white-normal-color);
     }
 }
 
