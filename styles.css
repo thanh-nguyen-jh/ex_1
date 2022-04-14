@@ -465,8 +465,6 @@ body {
     padding-left: 32px;
     padding-right: 16px;
     padding-bottom: 64px;
-
-    /* margin-top: 32px; */
 }
 
 .responsive-box > .paragraphs-box > .take-action-box > .title {
@@ -485,6 +483,7 @@ body {
 .responsive-box > .paragraphs-box > .take-action-box > .input-box > input {
     margin-bottom: 16px;
     height: 40px;
+    width: 80%;
 }
 
 .responsive-box > .paragraphs-box > .take-action-box > .input-box > .input {
