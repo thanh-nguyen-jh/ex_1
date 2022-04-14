@@ -12,6 +12,10 @@
     --grey-light-color: #cfcfcf;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .flex-topnav {
     margin-top: 56px;
 
@@ -58,6 +62,67 @@
     text-decoration-color: var(--main-bg-color);
     text-decoration-thickness: 3px;
     text-underline-offset: 13px;
+}
+
+/* Style the navigation menu */
+.topnav-mobile {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav-mobile #myLinks {
+    display: none;
+}
+
+/* Style navigation menu links */
+.topnav-mobile a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+/* Style the hamburger menu */
+.topnav-mobile a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav-mobile a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+    background-color: #04aa6d;
+    color: white;
+}
+
+.flex-topnav {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .topnav-mobile {
+        display: none;
+    }
+
+    .flex-topnav {
+        display: flex;
+    }
+
+    .active {
+        background-color: inherit;
+        color: white;
+    }
 }
 
 body {
