@@ -106,7 +106,7 @@ body {
 
 /* Style the active link (or home/logo) */
 .active {
-    background-color: var(--green-active-color);
+    background-color: var(--main-bg-color);
     color: var(--white-normal-color);
 }
 
