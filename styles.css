@@ -563,9 +563,10 @@ body {
     margin-bottom: 16px;
 }
 
-.footer > .footer-navigate-box > .extend-info {
+.footer > .extend-info {
     color: var(--grey-dark-color-500);
     width: calc(100% -32px - 32px);
+
     margin-left: 32px;
     margin-right: 32px;
 }
@@ -577,7 +578,7 @@ body {
         margin-left: 64px;
     }
 
-    .extend-info {
+    .footer > .extend-info {
         margin-left: 64px;
         text-align: start;
         width: 50vw;
